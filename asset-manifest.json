@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/free-games/static/css/main.743be4d2.css",
+    "main.js": "/free-games/static/js/main.a6d0e3bd.js",
+    "index.html": "/free-games/index.html",
+    "main.743be4d2.css.map": "/free-games/static/css/main.743be4d2.css.map",
+    "main.a6d0e3bd.js.map": "/free-games/static/js/main.a6d0e3bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.743be4d2.css",
+    "static/js/main.a6d0e3bd.js"
+  ]
+}
