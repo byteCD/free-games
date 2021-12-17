@@ -1,0 +1,29 @@
+.GameScreenshots {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #434343;
+}
+
+.GameScreenshots img {
+  width: 150px;
+  border-radius: 4px;
+}
+
+@media (max-width: 992px) {
+  .GameScreenshots {
+    flex-wrap: wrap;
+  }
+
+  .GameScreenshots img {
+    margin: 10px 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .GameScreenshots {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,17 @@
+.GamesList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 24%);
+  justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+  .GamesList {
+    grid-template-columns: repeat(auto-fill, 48%);
+  }
+}
+
+@media (max-width: 576px) {
+  .GamesList {
+    grid-template-columns: repeat(auto-fill, 100%);
+  }
+}

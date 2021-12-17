@@ -1,0 +1,44 @@
+.GameInfo {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #434343;
+  text-align: center;
+}
+
+.GameInfo__block {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.GameInfo__block:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.GameInfo__block h4 {
+  font-weight: 500;
+}
+
+@media (max-width: 992px) {
+  .GameInfo {
+    flex-wrap: wrap;
+    margin: 10px 0;
+  }
+
+  .GameInfo__block {
+    width: 50%;
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .GameInfo__block {
+    width: 100%;
+  }
+}
